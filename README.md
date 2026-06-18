@@ -1,20 +1,18 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Country Ranker Prototype
 
-# Run and deploy your AI Studio app
+An interactive prototype for comparing and ranking countries by well-being based on personalized user priorities.
 
-This contains everything you need to run your app locally.
+**Demo:** https://country-ranker-prototype-481717759984.europe-west2.run.app/
 
-View your app in AI Studio: https://ai.studio/apps/0f521a4c-ede6-4ae9-8abb-42499a44eb08
+## How it works
 
-## Run Locally
+1. **Set your priorities** — drag and drop 10 well-being dimensions (civic engagement, health, safety, environmental quality, income and wealth, knowledge and skills, social connections, subjective well-being, work and job quality, work-life balance) into the order that matters most to you.
+2. **Choose a decision model** — pick one of several multi-criteria decision-making methods (WSM, TOPSIS, PROMETHEE II, ELECTRE, AHP) to calculate the final ranking.
+3. **Get your results** — the system instantly generates a top 3 (and full top 20) of countries best matching your priorities, with a breakdown of weighted scores per criterion.
 
-**Prerequisites:**  Node.js
+## Features
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- 10 key well-being dimensions, ranked via drag-and-drop
+- 6 multi-criteria decision-making models
+- Instant ranking recalculation on priority or model changes
+- Multi-language and dark mode support
