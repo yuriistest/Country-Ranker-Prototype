@@ -1,0 +1,8 @@
+{
+  "name": "Remix: World Bank Well-being Index Ranker",
+  "description": "An interactive prioritization engine that ranks countries on customized well-being categories using World Bank indicators and MCDA decision algorithms (TOPSIS, PROMETHEE, WSM, AHP).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
